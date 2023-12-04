@@ -1,0 +1,17 @@
+{
+    "name": "mehdiismaili/test_qrcode_4",
+    "autoload": {
+        "psr-4": {
+            "Mehdiismaili\\TestQrcode4\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mehd212",
+            "email": "mehdi.ismaili97@gmail.com"
+        }
+    ],
+    "require": {
+        "chillerlan/php-qrcode": "^5.0"
+    }
+}
