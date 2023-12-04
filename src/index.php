@@ -12,7 +12,7 @@ require __DIR__ . '/../vendor/autoload.php';
 /**
  * Create SVG QR Codes with embedded logos (that are also SVG)
  */
-class QRSvgWithLogo extends QRMarkupSVG{
+class QRSvgRound extends QRMarkupSVG{
 
 
 
@@ -214,7 +214,7 @@ $options = new QROptions([
     // QROptions
     'version'             => 4,
     'outputType'          => QROutputInterface::CUSTOM,
-    'outputInterface'     => QRSvgWithLogo::class,
+    'outputInterface'     => QRSvgRound::class,
     'imageBase64'         => false,
     // ECC level H is necessary when using logos
     'eccLevel'            => EccLevel::H,
